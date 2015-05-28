@@ -1,0 +1,613 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>                  Experiment-10: Homology Modeling
+</title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Proteomics Laboratory</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                  Experiment-10: Homology Modeling
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+					<li> Theory</li>
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-10">
+                    <div class="icon" id="experiment-article-section-10-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a div tag. -->
+
+                  <div class="heading" id="experiment-article-section-10-heading">
+                        Aim
+                  </div><!-- Write the section content inside a paragraph element, You can also include images with &lt;img&gt; tag -->
+
+                  <div class="content" id="experiment-article-section-10-content">
+                        
+                  <div class="divContent">
+
+                  <p class="MsoNormal" style="line-height: 150%; text-align: right;">
+        <a href="http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                   Back To Experiment List</span></a></p>
+
+                            <p>&nbsp;</p>
+
+                            <p><!-- p { margin-bottom: 0.21cm; } --></p>
+
+   <p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">
+   To Perform Homology modeling for the given protein.</span></p>
+   
+   <p><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);">
+                            <br></span></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg"><br>
+					Theory</div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id="experiment-article-section-1-heading">
+                       
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+  
+                <p class="MsoNormal" style="line-height: 150%; text-align: right;">
+        <a href="http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+							<br>
+							<ol type="1">
+								<li>Initially start with the theory section, recall technical knowledge over each steps, go through manual and define an overall design, workflow, to conduct a 2-DE experiment.</li>
+								<li>In protocol section learn the minute integrity required to perform the experiment by going through the standardized protocol defined for each of the steps. , </li>
+								<li> Practice; operate through each step of the experiment in simulator section to visualize the entire process.</li>
+   								<li> Go through the video files to learn the real lab experience of performing experiments.</li>
+   								<li> In downloads sections, the content used are provide for user to export files, for analyses and in case to perform assignments completion.</li>
+								<li> Now, user should be sufficiently equipped to face a Quiz for assessment. So answer the questions provided in the quiz and complete the assignment. (Go back to any modules that require better understanding based on your performance!)</li>
+								<li>The articles, papers used for the content writing, books and the manuals used are cross referred for user information.</li>
+								<li>Finally user feedback on overall experiments for us to improve.</li>
+							</ol>
+                            <br>
+                            <p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
+                            <strong><span style="font-size: large;">Theory :-</span></strong></span></p>
+							<br>
+							<p style="margin-bottom: 0cm" align="justify">Homology modeling is a computational approach for three-dimensional protein structure modeling and prediction. Proteins whose structures are still uncharacterized can be modeled using homology modeling. This method builds an atomic model based on experimentally determined known structures that have sequence homology of more than 40% with the target molecule. Modeling structures with less then 40% template similarity would result in less reliable models and hence ignored. Homology modeling is also known as comparative modeling.</p>
+							<p style="margin-bottom: 0cm" align="justify">The principle governing this approach is that if two proteins share a high sequence similarity, they are more likely to have very similar three-dimensional structures. If one of the protein sequences has a known structure, then this  structure can be superimposed onto the unknown protein with a high degree of confidence. Protein sequences are more conserved than DNA and hence attribute to greater evolutionary significance.</p>
+							<p style="margin-bottom: 0cm" align="justify">While homology modeling predicts the positions of alpha carbons with moderate accuracy, it is not quite reliable in predicting side chains and loops. The others approaches are threading and ab- initio prediction.</p>
+                         <br>
+							<b>  Types of modeling:</b>
+							<br>
+							<ul type="circle">
+								<li>Basic Modeling - Modeling using a template with very high similarity with the target sequence.</li>
+								<li>Advanced Modeling - In this case, the target is modeled using more than one template such that regions of the template proteins that share a high identity with portions of the target are used individually to model these sections.</li>
+								<li>Iterative Modeling - This method generates models by using data gathered from previous target-template alignments to generate the probable range of values that can be considered significant for each criterion used in the modeling. This increases the accuracy of the model predicted. </li>
+							</ul>
+							<br>
+							<b>The overall homology modeling procedure consists of six steps-</b>
+							<br>
+							<b>Step I - Template Selection</b>
+							<p style="margin-bottom: 0cm" align="justify">Template selection involves searching the Protein Data Bank (PDB) for homologous proteins with determined structures. The search can be performed using a heuristic pairwise alignment search program like BLAST or FASTA. As a rule of thumb, a database protein should have at least 40% sequence identity, high resolution and the most appropriate cofactors for it to be considered as a template sequence. The protein sequence whose 3D structure is to be predicted is called the "target sequence".</p>
+							<br>
+							<br>
+							<b>Step II – Sequence Alignment</b>
+							<p style="margin-bottom: 0cm" align="justify">Once the template is identified, the full-length sequences of the template and target proteins need to be realigned using refined alignment algorithms to obtain optimal alignment. The alignment gives specific alignment scores.</p>				<br>
+							<br>
+							<b>Step III - Backbone Model Building</b>
+							<p style="margin-bottom: 0cm" align="justify">Once optimal alignment is achieved the corresponding coordinate's residues from the template proteins can be simply copied onto the target protein. If the two aligned residues are identical, coordinates of the side chain atoms are copied along with the main chain atoms.</p>
+							<br>
+							<br>
+							<b>Step IV – Loop Modeling</b>
+							<p style="margin-bottom: 0cm" align="justify">After the sequence alignment, there are often regions created by insertions and deletions that lead to gaps in alignment. These gaps are modeled by loop modeling, which is less accurate, a major source of error. Currently, two main techniques are used to approach the problem:</p>
+							<ul type="circle">
+								<li>The database searching method - this involves finding loops from known protein structures and superimposing them onto the two stem regions (main chains mostly) of the target protein. Some specialized programs like FREAD and CODA can be used.</li>
+								<li>The ab initio method - this generates many random loops and searches for one that has reasonably low energy and φ and ψ angles in the allowable regions in the Ramachandran plot.</li>
+								<br>
+							</ul>
+							<br>
+							<b>Step V - Side Chain Refinement</b>
+							<p style="margin-bottom: 0cm" align="justify">After the main chain atoms are built, the positions of side chains must be determined. This is important in evaluating protein–ligand interactions at active sites and protein–protein interactions at the contact interface.</p>
+								<p style="margin-bottom: 0cm">A side chain can be built by searching every possible conformation for every torsion angle of the side chain to select the one that has the lowest interaction energy with neighboring atoms. A rotamer library can also be used, which has all the favorable side chain torsion angles extracted from known protein crystal structures can also be used for this purpose.</p>
+								<br>
+							<br>
+							<b>Step VI - Model Refinement and Model Evaluation</b>
+							<p style="margin-bottom: 0cm" align="justify">This step carries out the energy minimization procedure on the entire model, which adjusts the relative position of the atoms so that the overall conformation of the molecule has the lowest possible energy potential. The goal of energy minimization is to relieve steric collisions without altering the overall structure. In these loop and side chain modeling steps, potential energy calculations are applied to improve the model. Model refinement can also be done by Molecular Dynamic simulation which moves the atoms toward a global minimum by applying various stimulation conditions (heating, cooling, considering water molecules) thus having a better chance at finding the true structure.</p>
+							<br>
+							<br>
+						    <p style="margin-bottom: 0cm" align="justify">The final model has to be evaluated for checking the φ–ψ angles, chirality, bond lengths, close contacts and also the stereo chemical properties. Various online protein validation software packages are available such as Procheck, WHATIF, ANOLEA, Verify3D, PROSA.</p>
+							<br>
+								<ul type="circle">
+									<li> Various Comprehensive Modeling Programs are available like Modeller, SWISS MODEL, Schrodinger, 3D- JIGSAW.</li>
+										<li> A successful model depends on template selection, algorithm used and the validation of the model.</li>
+								</ul>
+								<br>
+								<p><span style=
+                            "font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
+                            <strong><span style=
+                            "font-size: large;">Advantages</span></strong></span></p>
+								<br>
+								<ul type="circle">
+									<li> It can find the location of alpha carbons of key residues inside the folded protein.</li>
+										<li> It can help to guide the mutagenesis experiments, or hypothesize structure-function relationships.</li>
+									<li>The positions of conserved regions of the protein surface can help identify putative active sites, binding pockets and ligands.</li>
+								</ul>
+								<br>
+								
+								<p><span style=
+                            "font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
+                            <strong><span style=
+                            "font-size: large;">Disadvantages</span></strong></span></p>
+								<br>
+								<ul type="circle">
+									<li> Homology models are unable to predict conformations of insertions or deletions, or side chain positions with a high level of accuracy. </li>
+										<li> Homology models are not useful in modeling and ligand docking studies necessary for the drug designing and development process. However, it may be helpful for the same, if the sequence identity with the template is greater than 70%.</li>
+		
+								</ul>
+								
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg">
+                    </div>
+
+                    <div class="heading" id="experiment-article-section-5-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+                            
+                            
+                            
+                             <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><b>
+                                Materials Required</b>
+                                 </span>
+                            </p>
+                            <ul type="circle">
+                                <li>System and Internet access
+</li>
+                                <li> Software: MODELLER9v8</li>
+                            </ul>
+                            <br>
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>                            
+Protein sequence whose 3D structure needs to be built is obtained from Uniprot in .fasta format.
+                                URL:<a href="http://www.uniprot.org/">"http://www.uniprot.org/"</a>
+</span></p>
+<div style="text-align: center;">&nbsp;<img src="../images/exp14/1.png" alt="" width="543px" height="203px"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><span style=""><br>
+</span></span></div>  
+                            <p class="MsoNormal" style="line-height: 150%;" align="justify">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>                            
+ For this experiment, we have used MODELLER9v8 which is a Homology Modeling sofware. All the input files for running the following software are available here. The Software accepts the sequences with PIR format.</span></p>
+                            <br>
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            Step by step Procedure</span></b><span lang="EN-IN"
+                            style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="1" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                The above FASTA sequence is converted into PIR format to make it readable by the software. This file must have the extension of .ali format. </span></li>
+                            </ol>
+                            <br>
+                            <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/2.png" alt="" style="width:640px; height:134px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>
+
+                            <ol start="2" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                               After the .ali file is created, “build_profile.py” is searched for in the available input files. The “build_profile.py” file is obtained and the necessary changes are made. </span></li>
+                            </ol>
+                            <br>
+                            <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/3.png" alt="" style="width:722px; height:624px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div><br>
+                            <ol start="3" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                The script file is now run using the command interpreter as shown below: </span></li>
+                            </ol>
+                            <br><div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/4.png" alt="" style="width:623px; height:168px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div><br>
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            On running the betalactoglobulin_build_profile.py python file, a .prf is obtained which is the profile file of the query sequence and its homologs.</span></p>
+                            <br><div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/5.png" alt="" style="width:782px; height:607px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>
+                            <p class="MsoNormal" style="line-height: 150%;" align="justify">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                The most important columns in the profile.build() output are the II, XI and XII columns. The II column reports the code of the PDB sequence that was compared with the target sequence. The XI column reports the percentage sequence identities between betalactoglobulin and a PDB sequence normalized by the lengths of the alignment. In general, a sequence identity value above approximately 35% indicates a potential template. A better measure of the significance of the alignment is given in the XII column by the e-value of the alignment. To select the most appropriate template for our query sequence over the six similar structures, we will use the alignment.compare_structures() command to assess the structural and sequence similarity between the possible templates (file "betalactoglobulin_compare.py").</span></p>
+                            
+                            <ol start="4" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                             All the structural files for PDB database whose E value is 0.0 are obtained from the above obtained .prf file and they are listed in the compare.py file for the identification of thye best template.The Input file “alignment.compare() “ is selected and all the templates are added. </span> </li>
+                            </ol>
+<div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/6.png" alt="" style="width:645px; height:220px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            The selected PDB files are mentioned in the compare.py file as one of these could be the probable template.</span></p>
+
+                            <ol start="5" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                    Now, the script file is run using the command interpreter as shown below. </span></li>
+                            </ol>
+                            <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/7.png" alt="" style="width:625px; height:171px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>
+                            
+                            <ol start="6" type="1">
+                    <li class="MsoNormal" style="line-height: 150%;"><span lang="EN-IN" style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                    After running the compare file, the following dendogram is displayed. The templates are compared with each other. This comparison gives information about the crystallographic resolution of the pdb structure. The structure with a better crystallographic R-factor and higher overall sequence identity to the query sequence is selected to be aligned with the target sequence. The comparison shown above is for both sequential and structural similarity. The template with crystallographic R-factor should be in the range (1.5 to 2.5) and the sequence similarity should be as high as possible.</span></li>
+                            </ol>
+<p class="MsoNormal" style="line-height: 150%;" align="justify">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            For example, the below shown situation 1bdma has an Rfactor @1.8 and sequence similarity of >40%, therefore it can be considered a good template. When there are two templates with optimal required parameters then both should be selected. The compare.log file is chosen to build the structure of the unknown protein and prepare the align2d.py file.</span></p>
+                        <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/8.png" alt="" style="width:625px; height:171px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>               
+                            <ol start="7" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                    The above selected template is the template according to which the model query will be built. The align2d.py file is modified as shown below.  Appending of files i.e. original .ali file and the selected template will produce two alignment files .PIR and .PAP.   After running the aligned file, an alignment file is created which is used for modeling.
+                                    </span></li>
+                            </ol>
+                                <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/9.png" alt="" style="width:614px; height:188px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                                <ol start="8" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                    Now the script file is run  using the command interpreter as shown below:</span>
+                                </li>
+                            </ol>
+                                    <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/10.png" alt="" style="width:681px; height:184px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                        <p align="justify"> <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                           The following file is the alignment file produced by the software. In this file, the query sequence is globally aligned with the template and the '*' indicates the perfect match in the sequence. If the alignment results are not satisfactory, we can go back to the template selection step and replace the template with another protein with comparable similarity.</span></p>
+                            <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/11.png" alt="" style="width:656px; height:392px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                            <ol start="9" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                    Once a target-template alignment is constructed, software calculates a 3D model of the target completely automatically, using its automodel class. The following script will generate five similar models of betalactoglobulin based on the selected template structure and also based on the alignment in file (file "betalactoglobulin-model-single.py").
+The number of modes to be generated here must be mentioned, if the multiple models are desired at the end of the session.</span>
+                                </li>
+                            </ol>
+                                    <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/12.png" alt="" style="width:515px; height:178px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                            <p> <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>The Script file is run using the command interpreter as shown below:</span></p>
+                            <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/13.png" alt="" style="width:626px; height:170px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                            
+                            <ol start="10" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                    The output file has a statistical score calculated called the DOPE (Discrete Optimized Protein Energy) score and GA341 score. After the models are created, each of their DOPE Scores and GA341 Score are observed to that rank the models on the basis of their energy levels. Models with the lowest DOPE assessment score, or with the highest GA341 assessment score have the most stable minimized energy, and therefore are picked from the rest of the models for further protein structure analysis. Range of the GA341 scores are 0.0 (worst) to 1.0 (native-like) but DOPE score values are more reliable in distinguishing good models from the bad ones. In the example shown they have selected the B99990001.pdb and B99990002.pdb as the optimal models with the most stable structure and the least energy.</span>
+                                </li>
+                            </ol>
+                                    <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/14.png" alt="" style="width:719px; height:150px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                            <p> <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>Two structures were built whose snapshots are provided below.
+                                </span></p>
+                                    <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/15.png" alt="" style="width:623px; height:241px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                            <p align="justify"> <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>The models created contain the co-ordinates of the model in .pdb format. These models can be viewed by any molecular visualization software able to read .pdb files such as Rasmol, Chimera, Pymol, etc.</span></p><br>
+                            <b>Evaluation/Validation of the model generated: </b>
+                            <br>
+                            <ol start="11" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+Once the models are generated, they must be evaluated for any missing residues, side chain and also to check for steric slashes. The model evaluation can be carried out by the software itself or even with web based tool like ProCheck, ProSA, Verify3D.
+For this example we have validated the model using the MODELLER software. We need to obtain the model "evaluate_model.py" and mention the name of the pdb file to be evaluated. We have mentioned the file name "betalactoglobulin.B99990002.pdb"</span>                                
+                                </li>
+                            </ol>
+                                    <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/16.png" alt="" style="width:685px; height:247px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                            <ol start="12" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+Now, the script file is run using the command interpreter as shown below:
+
+                                    </span>                             </li>
+                            </ol>
+                                    <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/17.png" alt="" style="width:681px; height:184px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                            <ol start="13" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+This profile is written to a file "betalactoglobulin.profile", which can be used as input to a graphing program. For example, the plot shown below, it is plotted with GNUPLOT. Alternatively, the plot_profiles.py script can be used which is included in the tutorial zip file to plot profiles with the Python matplotlib package.
+
+                                    </span>                             </li>
+                            </ol>
+                                    <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp14/18.png" alt="" style="width:661px; height:399px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div>   
+                            <p align="justify"> 
+                            <span lang="EN-IN" style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>The above graph displays the difference in the DOPE score per residue of the template with the model generated. This profile is written to a file "betalactoglobulin.profile", which can be used as input to a graphing program. For example, the plot shown below, it is plotted with GNUPLOT. By analyzing the above graph, we can see that the template residues which are in the range of 50 - 80 and positions 240 - 270 are most conserved with the new generated model. Further, some literature studies on the proteins also revealed one of the regions to be active site of the protein. The variable regions of the model can be evaluated by more comprehensive programs like Advance Modeling, Schrodinger, Robetta etc.</span></p>
+                            
+                            
+                                
+                                </div>
+                        </div>   
+                </section>
+
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+                        <p><iframe src="http://www.bio.iitb.ac.in/%7Esanjeeva/virtual_lab/Virtual_Laboratory/exp-12/simulator12/main.html" align="middle" height="716" width="825" style="margin-left: 7%;"> </iframe></p>
+                        </div>
+                    </div>
+                </section>
+
+                
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/readings.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divContent">
+                            <p><!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+&lt;w:View&gt;Normal&lt;/w:View&gt;
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin:0in;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman","serif";}
+&lt;/style&gt;
+&lt;![endif]-->   
+						   <p class="PreformattedText">
+                           <b style=""><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'>
+                            References </span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>:</span></p>
+
+                           
+
+                            <p class="PreformattedText">&nbsp;</p>
+                     
+
+                            <p class="MsoNormal" style=
+                            "text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            1.     MODELLER 9v8- A Program for Protein Structure Modeling.</span></p>
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style=
+                            "margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            2.     Homology Modeling for Beginners with Free Software by Eric Martz, June 2001.</span></p>
+
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style=
+                            "margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            3.     Homology Modeling Thomas Blicher Center for Biological Sequence Analysis.</span></p>
+							
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style=
+                            "text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            4. Essential Bioinformatics  by Jin Xiong; Publisher: Cambridge University Press  published on: 2006-03-13;Chapter Thirteen – Tertiary Structure prediction.</span></p>
+							
+							<br>
+                            <p class="PreformattedText"><b style=""><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
+                            Webliography:</span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'></span></p>
+
+                        
+
+                            <p class="PreformattedText">&nbsp;</p>
+                     
+
+                            <h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            1.<span style=
+                            'font: 7pt "Times New Roman";'></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            "http://www.salilab.org/modeller/">
+                            <span style=
+                            "color: rgb(0, 0, 0);">http://www.salilab.org/modeller/</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            2.<span style=
+                            'font: 7pt "Times New Roman";'></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            "http://www.rcsb.org/pdb/home/home.do">
+                            <span style=
+                            "color: rgb(0, 0, 0);">http://www.rcsb.org/pdb/home/home.do</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            3.<span style=
+                            'font: 7pt "Times New Roman";'></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            " http://www.ncbi.nlm.nih.gov/protein/">
+                            <span style=
+                            "color: rgb(0, 0, 0);"> http://www.ncbi.nlm.nih.gov/tools/cobalt/</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            4.<span style=
+                            'font: 7pt "Times New Roman";'></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            "http://swissmodel.expasy.org/workspace/">
+                            <span style=
+                            "color: rgb(0, 0, 0);">  http://swissmodel.expasy.org/workspace/</span></a></span></h2>
+			
+						</div>
+                    </div>
+                </section>
+  <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        Assignments
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+
+                          </div>
+                </section>
+
+                
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,554 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>	Experiment-9: Introduction to Bio-informatics Tools: Sequence Alignment
+</title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Proteomics Laboratory</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Experiment-9: Introduction to Bio-informatics Tools: Sequence Alignment
+
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+					<li> Theory</li>
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-10">
+                    <div class="icon" id="experiment-article-section-10-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a div tag. -->
+
+                  <div class="heading" id="experiment-article-section-10-heading">
+                        Aim
+                  </div><!-- Write the section content inside a paragraph element, You can also include images with &lt;img&gt; tag -->
+
+                  <div class="content" id="experiment-article-section-10-content">
+                        
+                  <div class="divContent">
+
+                  <p class="MsoNormal" style="line-height: 150%; text-align: right;">
+        <a href="http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                   Back To Experiment List</span></a></p>
+
+                            <p>&nbsp;</p>
+
+                            <p><!-- p { margin-bottom: 0.21cm; } --></p>
+
+   <p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">
+   To perform sequence alignment to determine levels of similarity between two or multiple protein sequences.</span></p>
+   
+   <p><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);">
+                            <br></span></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg"><br>
+					Theory</div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                       
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            
+
+                           
+                            <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+							<br>
+                             
+                            
+                            <p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
+                            <strong><span style="font-size: large;">Theory :-</span></strong></span></p>
+							<br>
+                            <p align="justify">Bioinformatics is a combination of two major disciplines of science, the biological and computer sciences.  The study carried over with respect to biology part is helped and represented in a better way with the help of computer tools together constitute bio-informatics. The need for bioinformatics arose with HumanGenome Project, which aimed to sequence the entire human genome. Today, bioinformatics has become indispensible to biological scientists and is involved in day to day research, since, it has grown to encompass proteomics, transcriptomics, molecular modeling and several other disciplines in the field of biological research. One such application by using bio-informatics tools has been explained in this module.
+								<b>Sequence Alignment</b> is a process of aligning two sequences to achieve maximum levels of identity between them. The comparisons of the sequence are made with the query sequence to that of the database sequence. This help to determine the functional, structural and evolutionary relationships between them.</p>
+							<p align="justify">Information generated from sequence alignment can help in assigning functions to unknown protein, also determines the evolutionary relations of organisms and helps to predict the 3D structure of a protein.Homology is attributed to similarity due to a descent from a common ancestor, i.e. if two sequences are from different organisms are similar those are termed as Homologous.</p>
+							
+					<br>
+							<b> Types Of Sequence Alignment </b>
+							<br>
+							<p style="margin-bottom: 0cm" align="justify"><b>Based on sequence length :</b> Depending on whether the sequences are compared in parts (similar sections) or as a whole, there are two methods: </p>
+							<p style="margin-bottom: 0cm"><b>1. Global sequence alignment</b>- In this alignment, the entire length of all the sequences are scanned to look for the similarities and gaps are inserted to fill unaligned spaces.1) Seq 1 -TAGC-GC-GT 2) Seq 2 - A-CA-CAGT</p>
+							<p style="margin-bottom: 0cm" align="justify"><b>2. Local sequence alignment </b>– This alignment focuses on the local regions with high similarities and assigns gaps to portions that do not align.1)  Seq 1 - CGATAACGTAT 2) Seq 2 -  --ATAAAC---</p>
+							<br>
+							<p style="margin-bottom: 0cm" align="justify"><b> Based on number of sequences:</b>According to number of sequence being compared there are two methods: </p>
+							<p style="margin-bottom: 0cm"><b>1. Pairwise sequence alignment</b>his involves aligning two sequences and to get the best region of similarity. 1) Seq 1 – 1 KTSSGNGAEDS     11  2) Seq 2 - 1 KTSSGNGAEDS     11</p>
+							<br>
+							<br>
+						    <p style="margin-bottom: 0cm" align="justify"><b> Various methods used to perform pairwise alignment of nucleotide and protein sequences:</b></p>
+							<br>
+							<p style="margin-bottom: 0cm" align="justify"><b>Ø Dot Plot:</b>Graphical method for two sequences to identify regions of similarity and dissimilarity represented with presence or absence of dots.</p>
+							<p style="margin-bottom: 0cm" align="justify"><b>Ø Dynamic Programming:</b>This method breaks a problem into small sub-problems and uses the solution of the sub-problems to compute the solution of the larger one. Some algorithms like Needleman-Wansch and Smith-Waterman are used here.</p>
+							<p style="margin-bottom: 0cm" align="justify"><b>Ø Heuristic Method:</b>When a single sequence is to be compared against the whole database, methods like BLAST and FASTA are used, which compare the query sequence one by one against all the sequences and then generates a result that shows the alignment of the query sequence with all matches in decreasing order of homology.</p>
+                            <p><!-- p { margin-bottom: 0.21cm; } --></p>
+							<br>
+							<b> Some of the parameters used for producing optimum alignment are as follows- </b>
+							<br>
+							<p style="margin-bottom: 0cm" align="justify"><b>Ø Max target sequences :</b> It displays the results with total number of aligned sequences on a page.</p>
+							<p style="margin-bottom: 0cm" align="justify"><b>Ø Expected Threshold :</b> It is a statistical indicator which calculates the probability that the resulting alignments are caused by random chance. The lower the E value, the more significant is the score. The default value is kept 10 as 10 matches are expected to be found random by chance (Stochastic model of Karlin & Altschul, 1990).</p>
+							<p style="margin-bottom: 0cm" align="justify"><b>Ø Query match :</b>– It gives the maximum match in query range. This is useful for comparing many stronger matches of the query results from the weaker ones.</p>
+							<p style="margin-bottom: 0cm" align="justify"><b>Ø Word size :</b> This algorithm works by using word matches between the query and the database sequences. It searches for exact word matches, and then extends to the full length alignment. A word size of 3 is optimum for standard protein alignment and word size of 2 is required for short and nearly exact matches.</p>
+				            <p style="margin-bottom: 0cm" align="justify"><b>Scoring schemes :</b>  Different scoring schemes algorithms are devised to obtain an optimum alignment. Use of any substitution matrix helps in aligning possible pairs of residues and also generates scores. To check the quality of pairwise sequence alignment, different PAM and BLOSUM matrices are used. </p>
+							<br>
+							<ul type="circle">
+								<li>PAM (Point Accepted Mutation) – This is developed by calculating the substitution of amino acid during evolution which are naturally accepted. PAM30 is used for sequence less than 35% in length whereas PAM70 is used for sequences ranging from 30% to 50%. (more details click here)</li>
+								
+							<li>BLOSUM (Block amino acid substitution matrix) – This has been developed using conserved regions called BLOCKS, of distantly related protein sequences available within the block database. Out of all, BLOSUM 62 matrix is best used for detecting most protein similarities. BLOSUM 45 may be used for longer and weaker alignments. (more details click here)</li>
+							</ul>
+							<p style="margin-bottom: 0cm" align="justify"><b>Ø Gap costs:</b>A gap is a space which is introduced into an alignment to compensate for insertions and deletions in one sequence relative to another. Too many gaps should be avoided in the alignment and hence a gap penalty or gap score is assigned. Extension of the gap to encompass additional nucleotides or amino acid is also penalized in the scoring of an alignment. A penalty is subtracted from the alignment score when a gap penalty is introduced. Increase in gap costs parameter results in a lower number of gaps in the alignment. The penalty for the creation of a gap should be large enough so that gaps are introduced only where needed, and the penalty for extending a gap should take into account the likelihood that insertions and deletions occur over several residues at a time. Some commonly used values here are existence 10, 11 and extension 1.</p>
+							
+							<center>
+								<img src="../images/exp13/1.png" style="width:490px;height:654px"/>
+							</center>
+							<br>
+							<p style="margin-bottom: 0cm" align="justify"><b>2. Multiple sequence Alignment (MSA) -</b>This involves the alignment of more than two (protein/ DNA) sequences and assesses the sequence conservation of proteins domains and structures. It is an extrapolation of the pairwise sequence alignment which reflects alignment of similar sequences and provides a better alignment score. Various analysis like Homology modeling for prediction of protein structure, Phylogenetic analysis, motif detection etc are based on the results of multiple sequence alignment.
+There are many softwares like Clustal, t-coffee, Phylip, MSA, MUSCLE used for obtaining multiple sequence alignment. Example –</p>
+							
+							<ul type="circle">
+								<li>Seq 1 - PQGGGGWGQ</li>
+								<li>Seq 2 - PQGGGGWGQ</li>
+								<li>Seq 3 - PQGGGGWGQ</li>
+								<li>Seq 4 - PQGGGGWGQ</li>
+								<li>Seq 5 - PQGGGGWGQ</li>
+							</ul><br>
+							<b>Following parameters should be considered while aligning multiple sequences:</b>
+								<br>
+							<ul type="circle">
+								<li><b>Protein weight matrix -</b>The matrix used to generate the alignment score must be able to produce the highest score. Eg: PAM and BLOSUM.</li>
+								<li><b>Gap open –</b>The penalty to open a gap. The presence of a gap is frequently given more significance than the length of the gap. By default, the gap opening penalty is 10.</li>
+								<li><b>Gap extension –</b> The penalty to extend a gap. Extension of the gap also involves additional of amino acids which is penalized in the scoring of the alignment. By default, gap extension penalty is 0.20.</li>
+							</ul>
+							<br><br>
+							<b>Application of MSA results:</b><br>
+							<p style="margin-bottom: 0cm" align="justify"><b>Phylogenetic analysis – </b>It is one of the major areas where multiple sequence analysis results are used to find the evolutionary relatedness between sequences. The results are displayed in form of phylogenetic tree which has set of nodes and branches to link the nodes.</p>
+							<br><br>
+							<b>File format view: </b>
+							<br>
+							<p style="margin-bottom: 0cm" align="justify"><b>PHYLIP -</b>PHYLogeny Inference Package. It’s a format for Joe Felsenstein’s phylogenetic applications, having 8 letter maximum lengths for the sequence ID.</p>
+							<p style="margin-bottom: 0cm" align="justify"><b> Cladogram - </b>In a cladogram, the external taxa line up neatly in a row. Their branch lengths are not proportional to the number of evolutionary changes and thus no evolutionary time analysis can be done. Only the relative ordering of the taxa can be analyzed.</p>
+							<center><img src="../images/exp13/2.jpg" style="width:206px;height:136px;"/></center><br>
+							<p style="margin-bottom: 0cm"><b>Phylogram -</b>In a phylogram, the branch lengths represent the amount of evolutionary divergence. Such trees are said to be scaled.</p>
+							<center><img src="../images/exp13/3.jpg" style="width:206px;height:136px;"/></center><br>
+							<p style="margin-bottom: 0cm"><b> Pearson/FASTA - </b>Text based format to represent amino acids in single letter code. It also has sequence names followed by comments.</p>		<center><img src="../images/exp13/3.jpg" style="width:206px;height:136px;"/></center><br>
+							<center><img src="../images/exp13/2.png" style="width:689px;height:304px;"/></center><br>
+							<p style="margin-bottom: 0cm">Consensus Symbol indication:</p><br>
+							<ol type="1">
+								<li> An * (asterisk) indicates positions which have a single, fully conserved residue.</li>
+									<li> A: (colon) indicates conservation between groups of strongly similar properties - scoring > 0.5 in the PAM 250 matrix.</li>
+										<li> A. (Period) indicates conservation between groups of weakly similar properties - scoring less than = 0.5 in the PAM 250 matrix.</li>
+							</ol>
+							<p style="margin-bottom: 0cm;">The following is the color code of the amino acids according to the properties of the amino acids.</p> <br>
+							<table border>
+								<tr><td>Orange</td><td>G</td></tr>
+								<tr><td>Red</td><td>HKR</td></tr>
+								<tr><td>Blue</td><td>FWYM</td></tr>
+								<tr><td>GREEN</td><td>ILVTN</td></tr>
+								<tr><td>Yellow</td><td>P</td></tr>
+							</table><br>
+							<p style="margin-bottom: 0cm"><b>Jalview -</b>Java alignment editor. It is a visualization tool for alignment algorithms and other database search results.</p>
+								
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"><br>
+					Procedure</div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+							
+
+                            
+                             <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            Identification of similar regions in protein sequences to determine the functional, structural and evolutionary relationships between them.</span></p>
+
+                            
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            Step by step Procedure</span></b><span lang="EN-IN"
+                            style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="1" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                Choose the type of alignment to be performed whether pairwise or multiple sequence.</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="2" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                               Input the subject protein sequence of your choice or upload it through the browse tab in the FASTA format.</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="3" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                Input the query protein sequence or upload it using the browse tab in FASTA format.</span></li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="4" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                               Select the general parameters like Max target sequences to align maximum length of a sequence in a row, word size, expected threshold and query matches for pairwise alignment. Select protein weight matrix, Clustering method and file formats for multiple sequence alignment. Gap opening and extension should be kept constant.</span> </li>
+                            </ol>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="5" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                    Select the scoring parameters. Select the matrix to assign scores for aligning possible pair of residues. Select BLOSUM or PAM for stronger and weaker alignments or distantly related sequences respectively.</span></li>
+                            </ol>
+							
+							<ol start="6" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                    Select gap costs so as to decrease the number of gaps in the alignment.</span></li>
+							</ol>
+							<ol start="7" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                                    By default, "low complexity region" is selected to filter out the repeated region and improve the sensitivity of sequence similarity search.</span></li>     </ol>
+							<ol start="8" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									Hit the align tab to see the result.</span>
+								</li>
+							</ol>
+							<center><img src="../images/exp13/3.png" style="width:419px;height:583px"/></center>
+							
+								</div>
+                        </div>   
+                </section>
+
+
+     
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+                            <p>1) To retreive protein sequence from publicly available databases like UniProt in FASTA format.</p>
+                    <p><iframe src="http://www.bio.iitb.ac.in/%7Esanjeeva/virtual_lab/Virtual_Laboratory/exp-9/FindSeq.swf" height="716" align="middle" width="825" style="margin-left: 7%;">
+
+</iframe></p> <br>
+
+<p>2) To align two or more sequences for finding out the sequence similarity between them.</p>
+<p><iframe src="http://www.bio.iitb.ac.in/%7Esanjeeva/virtual_lab/Virtual_Laboratory/exp-11/exp-13/simulator11/main.html" height="716" align="middle" width="825" style="margin-left: 7%;">
+
+</iframe></p>
+                        </div>
+                    </div>
+                </section>
+        
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/readings.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divContent">
+                            <p><!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+&lt;w:View&gt;Normal&lt;/w:View&gt;
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin:0in;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman","serif";}
+&lt;/style&gt;
+&lt;![endif]-->   
+						   <p class="PreformattedText"><b style=""><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
+                            References </span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>:</span></p>
+
+                            <p class="PreformattedText">&nbsp;</p>
+
+                            <p class="PreformattedText">&nbsp;</p>
+                     
+
+                            <p class="MsoNormal" style=
+                            "text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            1) Singh S et al, Prediction and analysis of paralogous proteins in Trichomonas vaginalis genome, BIOINFORMATION, Volume 6(1).</span></p>
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style=
+                            "margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            2) Lancia N.F et al, Proteome analysis of the leukocytes from the American alligator (Alligator mississippiensis) using mass spectrometry, Comparative Biochemistry and Physiology, Part D 5 (2010) 308–316.</span></p>
+
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style=
+                            "margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            3) Panagiotis D et al, GPU-BLAST: using graphics processors to accelerate protein sequence alignment, BIOINFORMATICS, Vol. 27 no. 2 2011, pages 182–188 doi:10.1093/bioinformatics/btq644.</span></p>
+							
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style=
+                            "text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            4)  Dieterich C, Department of Evolutionary Biology, Max Planck Institute for Developmental Biology. BLAST and FASTA Heuristics in pairwise sequence alignment. www.bioalgorithms.info</span></p>
+							
+							<br>
+							<p class="MsoNormal" style=
+                            "text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            5)  Blast Program Selection Guide http://blast.ncbi.nlm.nih.gov/Blast.</span></p>
+							
+							<br>
+							
+							
+							<p class="MsoNormal" style=
+                            "text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            6) Title: Essential Bioinformatics Author: Jin Xiong Publisher: Cambridge University Press Publication Date: 2006-03-13, Chapter three- Sequence Alignment.</span></p>
+							
+					
+                            <p class="PreformattedText"><b style=""><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
+                            Links OF Tools</span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>:</span></p>
+
+                            <p class="PreformattedText">&nbsp;</p>
+
+                            <p class="PreformattedText">&nbsp;</p>
+                     
+
+                            <h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            1.<span style=
+                            'font: 7pt "Times New Roman";'>MUSCLE:</span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            " http://www.ebi.ac.uk/Tools/msa/muscle/">
+                            <span style=
+                            "color: rgb(0, 0, 0);"> http://www.ebi.ac.uk/Tools/msa/muscle/</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            2.<span style=
+                            'font: 7pt "Times New Roman";'>T-COFFEE</span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            " http://tcoffee.crg.cat/">
+                            <span style=
+                            "color: rgb(0, 0, 0);"> http://tcoffee.crg.cat/</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            3.<span style=
+                            'font: 7pt "Times New Roman";'>COBALT:</span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            " http://www.ncbi.nlm.nih.gov/tools/cobalt/">
+                            <span style=
+                            "color: rgb(0, 0, 0);"> http://www.ncbi.nlm.nih.gov/tools/cobalt/</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            4.<span style=
+                            'font: 7pt "Times New Roman";'>CLUSTALW2</span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            " http://www.ebi.ac.uk/Tools/msa/clustalw2/">
+                            <span style=
+                            "color: rgb(0, 0, 0);"> http://www.ebi.ac.uk/Tools/msa/clustalw2/</span></a></span></h2>
+			
+						</div>
+                    </div>
+                </section>
+  <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        Assignments
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <p>I - Perform Pairwise Alignment with the following sequences using parameters BLOSUM 62, Word size 3 displaying 100 target sequences.</p><br>
+						<p>II - Proteins Chk1, Chk2 and wee1 are kinases, study the conserved residues among them and find the sequence similarity between them.</p>
+                    </div>
+                </section>
+
+                
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

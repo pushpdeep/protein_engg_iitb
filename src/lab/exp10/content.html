@@ -1,0 +1,449 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Experiment-7: MS Data Analysis- Peptide Mass Fingerprinting (PMF)</title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Proteomics Laboratory</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                 Experiment-7: MS Data Analysis- Peptide Mass Fingerprinting (PMF)
+
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+					<li> Theory</li>
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-10">
+                    <div class="icon" id="experiment-article-section-10-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a div tag. -->
+
+                  <div class="heading" id="experiment-article-section-10-heading">
+                        Aim
+                  </div><!-- Write the section content inside a paragraph element, You can also include images with &lt;img&gt; tag -->
+
+                  <div class="content" id="experiment-article-section-10-content">
+                        
+                  <div class="divContent">
+
+                  <p class="MsoNormal" style="line-height: 150%; text-align: right;">
+        <a href="http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                   Back To Experiment List</span></a></p>
+
+                            <p>&nbsp;</p>
+
+                            <p><!-- p { margin-bottom: 0.21cm; } --></p>
+
+   <p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">
+   To analyze the MALDI-TOF peptide mass fingerprinting data.</span></p>
+   
+   <p><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);">
+                            <br></span></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg"><br>
+					Theory</div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id="experiment-article-section-1-heading">
+                       
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent">
+  
+                <p class="MsoNormal" style="line-height: 150%; text-align: right;">
+        <a href="http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+							<br>
+							
+				<p style="margin-bottom: 0cm" align="justify">Result of the MALDI-TOF analysis can be up-loaded as ASCII files or the mass pick list can be introduced manually in the search engine for identification of the protein of interest. Computer searching algorithms are used to identify protein sequences using peptide mass information (mass map) obtained from proteolytic digests of proteins. If the database does not contain the sequence of the unknown protein, then a successful search will provide those entries showing the closest sequence homology, often equivalent proteins from related species. In order to obtain a satisfactory result multiple parameters required to be specified. The brief definitions of the parameters are given below.</p>
+
+				<p align="justify">1. <b>Database:</b> Database is a systemic organization of data to pile up and retrieve the data for easy accession during the identification the proteins.</p> <br>
+				<p align="justify">2. <b>Taxonomy:</b> Taxonomy is an art of classification of organisms based on pre-determined criteria to simplify the search to limited hits.</p> <br>
+				<p align="justify">3. <b>Fixed modifications:</b> Some reagents/chemicals have ability to modify the amino acids during sample preparations needs to be specified to reimburse the mass of the modifications while searching for identification.</p> <br>
+				<p align="justify">4. <b>Variable modifications:</b> Quite a few of the amino acids (like Met, Tyr) are highly prone to modifications during sample preparation is need to be specified to obtain superior results.</p> <br>
+				<p align="justify">5. <b>Data format:</b> Data file which is compactable to search engine having mass peak list, intensity of the peak and search parameters.</p> <br>
+				<p align="justify">6. <b>Enzyme:</b> An enzyme has a specificity to cleave the proteins to smaller peptides need to be specified to get the finger prints of whole protein in mass spectrometric analysis.</p> <br>
+				<p align="justify">7. <b>Allow up to- Miss-cleavage:</b> Sometime enzyme misses the cleavage site in protein need to be addressed to identify the best hit.</p> <br>
+				<p align="justify">8. <b>Monoisotopic mass:</b> Monoisotopic mass indicates the total mass of the highly abundant isotopes of the amino acid.</p> <br>
+				<p align="justify">9. <b>Average mass:</b> Average mass is the mass of the average of the all existing isotopes in amino acid.</p> <br>
+				<p align="justify">10. <b>Instrument:</b> Quite a few of mass spectrometry instruments are in practice for protein identification with different mass analyzers, ion source and detectors need to be specified to get best result.</p> <br>
+				<p align="justify">11. <b>Data file:</b> Data file act as a browser to import dataset generated from mass spectrometry into the search engine to obtain the results.</p> <br>
+
+				<p align="justify"><b>Search engines:</b> Different search engines are available for protein identification using mass spectrometric peptide mapping information. MASCOT, SEQUEST and ProFound are the most commonly used search engines for identification of proteins and peptides.</p> <br>
+
+				<p align="justify"><b>MASCOT</b> <a href="http://www.matrixscience.com/">(http://fields.scripps.edu/sequest)</a>: SEQUEST is a registered trademark of the University of Washington. This search engine correlates uninterpreted tandem mass spectra of peptides with amino acid sequences from protein and nucleotide databases. The result offers the amino acid sequence and thus the protein(s) and organism(s) that correspond to the mass spectrum being analyzed.</p> <br>
+
+				<p align="justify"><b>SEQUEST</b><a href="http://fields.scripps.edu/sequest/">(http://fields.scripps.edu/sequest)</a>: SEQUEST is a registered trademark of the University of Washington. This search engine correlates uninterpreted tandem mass spectra of peptides with amino acid sequences from protein and nucleotide databases. The result offers the amino acid sequence and thus the protein(s) and organism(s) that correspond to the mass spectrum being analyzed.</p> <br>
+
+				<p align="justify"><b>ProFound</b><a href="http://prowl.rockefeller.edu/prowlcgi/profound.exe">(http://prowl.rockefeller.edu/prowlcgi/profound.exe)</a>: ProFound uses Bayesian algorithm to identify proteins from protein databases. One of the major advantages of this search engine is that it provides accurate identities of proteins even when the data quality is relatively low or the target protein is present in a complex mixture.</p> <br>
+				
+							
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg">
+                    </div>
+
+                    <div class="heading" id="experiment-article-section-5-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+
+                <p align="justify">The experimental mass lists obtained in the previous experiment (Experiment # 6) are compared with a database of peptide mass values using different search engines. The different parameters are specified to identify the precise entry.</p>
+
+                        <ol>
+                          <li>Select the <a href="http://www.matrixscience.com/help/database_help.html">sequence database</a> to be searched. <br><br>
+
+                          <table>
+                          	<tr>
+                          		<th>Database</th>    <th>Comment</th>
+                          	</tr>
+
+                          	<tr>
+                          		<td>EST</td>    <td>EST divisions of Genbank, (currently EST_human, EST_mouse, EST_others)</td>
+                          	</tr>
+
+                          	<tr>
+                          		<td>MSDB</td>    <td>Comprehensive, non-identical protein database</td>
+                          	</tr>
+
+                          	<tr>
+                          		<td>NCBInr</td>    <td>Comprehensive, non-identical protein database</td>
+                          	</tr>
+
+                          	<tr>
+                          		<td>SwissProt</td>    <td>High quality, curated protein database</td>
+                          	</tr>	
+                          </table>
+
+
+                          </li><br>
+
+                          <li>Select taxonomy. It allows searches to be limited to entries from particular species or groups of species.</li><br>
+
+                          <li>Specify the cleaving agent used for protein digestion. For example, Trypsin.</li><br>
+
+                          <li>Choose a setting of 1 or maybe 2 missed cleavage sites ** (digest mixtures usually include some partial fragments, that is, peptides with missed cleavage sites).</li><br>
+
+                          <li>Select “fixed modifications”. Fixed modifications are applied universally, to every instance of the specified residue(s) or terminus. There is no computational overhead associated with a fixed modification; it is simply equivalent to using a different mass for the modified residue(s) or terminus. For example, selecting Carboxymethyl (C) means that all calculations will use 161 Da as the mass of cysteine.</li><br>
+
+                          <li>Select Variable modifications***. Variable modifications are those which may or may not be present. Mascot tests all possible arrangements of variable modifications to find the best match. For example, if Oxidation (M) is selected, and a peptide contains 3 methionines, Mascot will test for a match with the experimental data for that peptide containing 0, 1, 2, or 3 oxidised methionine residues.</li><br>
+
+                          <li>Give the value of peptide Mass. The mass of the intact protein in Dalton applied as a sliding window. That is, the mass of the contiguous stretch of sequence which contains all of the matched peptide mass values. This will generally be less than the mass of the entire sequence entry. If this field is left blank, there is no restriction on protein mass.</li><br>
+
+                          <li>Set the value of peptide tolerance. <br> The error window on experimental peptide mass values, Units can be selected from: <br><br>
+
+                          <table align="center">
+                          	<tr>
+                          		<th>Percentage</th>    <th>Fraction expressed as a percentage</th>
+                          	</tr>
+
+                          	<tr>
+                          		<td>mmu</td>    <td>absolute milli-mass units, i.e. units of .001 Da</td>
+                          	</tr>
+
+                          	<tr>
+                          		<td>ppm</td>    <td>fraction expressed as parts per million</td>
+                          	</tr>
+
+                          	<tr>
+                          		<td>Da</td>    <td>absolute units of Da</td>
+                          	</tr>
+
+                          	<tr>
+                          		<td>SwissProt</td>    <td>High quality, curated protein database</td>
+                          	</tr>	
+                          </table>
+
+                          </li><br>
+
+                          <li>Specify whether experimental peptide mass values in a peptide mass fingerprint search include the mass of the charge carrier, MH+ or M-H-, or whether they correspond to neutral, Mr values.</li><br>
+
+                          <li>Specify whether the experimental mass values are average or monoisotopic.</li><br>
+
+                          <li>Browse the data file or enter the peptide mass values in the query window.</li><br>
+
+                          <li>Set the value of report hits to 10.This will display the best 10 hits in a search results report.</li><br>
+                        </ol> <br>
+
+                        <h4>Note</h4>
+                        <br>
+
+                        <p align="justify">For a Peptide Mass Fingerprint, the EST databases are not available. It makes no sense to search a set of peptide masses against EST because the entries are just short stretches of sequence, not complete proteins.</p>
+
+                        <p align="justify">Setting the number of allowed missed cleavage sites to zero simulates a limit digest. If you are confident that your digest is perfect, with no partial fragments present, this will give maximum discrimination and the highest score. Don't specify a higher number without good reason, because each additional level of missed cleavages increases the number of calculated peptide masses to be matched against the experimental data. If the actual digest does not contain extended partials, this simply increases the number of random matches, and so reduces discrimination.</p>
+
+                        <p align="justify">Variable modifications can be a very powerful means of finding a match, but there are also dangers to be aware of. Even a single variable modification will generate many possible additional peptides to be tested. More than one variable modification causes the number of arrangements to increase geometrically. This means that a search can take dramatically longer than the same search with fixed modifications. More importantly, testing all possible arrangements of modifications generates many more random matches, so that discrimination can be sharply reduced. The best advice is to use variable modifications sparingly; never select a large number "just in case". MASCOT allows up to 9 variable modifications to be specified but, in most cases, a better approach is to do a first pass search with a small number of variable modifications followed by an error tolerant, second pass search to pick up additional matches to peptides containing unusual modifications.  </p> <br>
+
+                        <table align="center">
+                          	
+
+                          	<tr>
+                          		<td><a href="images/Slide1.JPG"><img src="images/Slide1.JPG" style="height:30px; width:39px;"></a></td>  
+                          		<td><a href="images/Slide2.jpg"><img src="images/Slide2.jpg" style="height:30px; width:39px;"></a></td>
+                          		<td><a href="images/Slide3.jpg"><img src="images/Slide3.jpg" style="height:30px; width:39px;"></a></td>
+                          		<td><a href="images/Slide4.jpg"><img src="images/Slide4.jpg" style="height:30px; width:39px;"></a></td>
+                          		<td><a href="images/Slide5.jpg"><img src="images/Slide5.jpg" style="height:30px; width:39px;"></a></td>
+                          	</tr>
+
+                          	<tr>
+                          		<td>Macot home page</td>
+                          		<td>Databases for analysis</td>
+                          		<td>Peptide tolerence parameters</td>
+                          		<td>MAscot results display</td>
+                          		<td>Deteiled results for protein identification</td>
+                          	</tr>
+                          </table>
+
+                          <table align="center">
+                          	
+
+                          	<tr>
+                          		<td><a href="images/Slide6.jpg"><img src="images/Slide6.jpg" style="height:30px; width:39px;"></a></td>  
+                          		<td><a href="images/Slide7.jpg"><img src="images/Slide7.jpg" style="height:30px; width:39px;"></a></td>
+                          		<td><a href="images/Slide8.jpg"><img src="images/Slide8.jpg" style="height:30px; width:39px;"></a></td>
+                          		<td><a href="images/Slide9.jpg"><img src="images/Slide9.jpg" style="height:30px; width:39px;"></a></td>
+                          	</tr>
+
+                          	<tr>
+                          		<td>Peptide Mass Fingerprinting-Data Analysis</td>
+                          		<td>Spectrum from Peptide Mass Fingerprinting</td>
+                          		<td>Peptide Mass Fingerprinting Data Analysis</td>
+                          		<td>Data Analysis</td>
+                          	</tr>
+                          </table>
+                        </div>
+                        </div>   
+                </section>
+
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                       <div class="divContent">
+                       <p><iframe src="http://www.bio.iitb.ac.in/%7Esanjeeva/virtual_lab/Virtual_Laboratory/exp-7/exp7.html" width="825" align="center" height="716"></iframe></p>
+                        </div>
+                    </div>
+                </section>
+
+                
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/readings.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divContent">
+                 
+						   <p class="PreformattedText">
+                           <b style=""><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'>
+                            References </span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>:</span></p>
+
+                          
+                            <p class="PreformattedText">&nbsp;</p>
+
+                            <h4>Web Links:</h4>
+                     
+                            <p class="MsoNormal" style="text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            1.  http://www.matrixscience.com/</span></p>
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style="margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            2. http://fields.scripps.edu/sequest/</span></p>
+
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style='font-size: 12pt; font-family: "Arial","sans-serif";'>&nbsp;</span></p>
+
+                            <p class="MsoNormal" style="margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            3. http://prowl.rockefeller.edu/prowl-cgi/profound.exe </span></p>
+							
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style='font-size: 12pt; font-family: "Arial","sans-serif";'>&nbsp;</span></p>
+							<br>		
+
+							<p class="PreformattedText">&nbsp;</p>
+
+                            <h4>Journals:</h4>
+                     
+                            <p class="MsoNormal" style="text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            1. Zhang W et al. ProFound: an expert system for protein identification using mass spectrometric peptide mapping information. Anal Chem. 2000, 72, 2482-2489.</span></p>
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style="margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            2. Cottrell JS. Protein identification by peptide mass fingerprinting. Pept Res. 1994, 7, 115-24.</span></p>
+
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style='font-size: 12pt; font-family: "Arial","sans-serif";'>&nbsp;</span></p>
+
+                            <p class="MsoNormal" style="margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            3. Hirosawa M et al. MASCOT: multiple alignment system for protein sequences based on three-way dynamic programming. Comput Appl Biosci. 1993, 9, 161-167.</span></p>
+							
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style='font-size: 12pt; font-family: "Arial","sans-serif";'>&nbsp;</span></p>
+
+                            <p class="MsoNormal" style="margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            4.  Perkins DN et al. Probability-based protein identification by searching sequence databases using mass spectrometry data. Electrophoresis. 1999, 20, 3551-3567.</span></p>
+
+                             <p class="MsoNormal" style="line-height: normal;">
+                            <span style='font-size: 12pt; font-family: "Arial","sans-serif";'>&nbsp;</span></p>
+
+                            <p class="MsoNormal" style="margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            5. Colinge J et al. OLAV:Towards high-throughput tandem mass spectrometry data: Proteomics. 2003, 3, 1454-1463.</span></p>
+
+                             <p class="MsoNormal" style="line-height: normal;">
+                            <span style='font-size: 12pt; font-family: "Arial","sans-serif";'>&nbsp;</span></p>
+
+                            <p class="MsoNormal" style="margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            6. Egelhofer V et al. Protein identification by MALDI-TOF-MS peptide mapping: a new strategy. Anal Chem. 2002, 74, 1760-1771.</span></p>
+
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style='font-size: 12pt; font-family: "Arial","sans-serif";'>&nbsp;</span></p>
+
+                            <p class="MsoNormal" style="margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            7. Köcher T et al. Altered Mascot search results by changing the m/z range of MS/MS spectra: analysis and potential applications. Anal Bioanal Chem. 2010, PMID: 21161510.</span></p>
+
+
+							<br>				
+              </div>
+                    </div>
+                </section>
+  <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        Assignments
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+
+                    <h4>Instructors’ assignment:</h4>
+                    <p align="justify">Course instructors are requested to explain the basic theory peptide mass fingerprinting (PMF) before discussing the detailed protocol. Once the students become familiar with the overall procedure they can be evaluated by the related questions provided under “Quiz” and “Assignment” sections.</p><br>
+
+                    <h4>Assignment for students:</h4>
+                    <p align="justify">Students should click on the simulator window to run the animation and there are provisions for the learners to participate actively in the over-all analysis process by clicking on the computer screen etc. using the interactive animations during the different steps of the analysis. Students can upload the data file in the window and change some of the parameters to see how the results are changed depending on different parameters like database, taxonomy etc. Students are strongly advised to go through the references provided in “Reference” section for further knowledge.</p> <br>
+
+                    <h4>Questions:</h4>
+                    <ol>
+                      <li>What is peptide mass fingerprinting?</li>
+                      <li> Mention the name of three search engines commonly used for MS data analysis?</li>
+                      <li>What is fixed modifications? How do they affect analysis?</li>
+                      <li>What are variable modifications? How do they affect analysis?</li>
+                      <li>Why EST database is not suitable for PMF analysis?</li>
+                    </ol>
+
+                          </div>
+                </section>
+
+                
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

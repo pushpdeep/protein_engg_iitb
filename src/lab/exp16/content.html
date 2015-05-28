@@ -1,0 +1,514 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>                             Experiment-12: Molecular Docking
+</title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Proteomics Laboratory</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+            Experiment-12: Molecular Docking           </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+					<li> Theory</li>
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-10">
+                    <div class="icon" id="experiment-article-section-10-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a div tag. -->
+
+                  <div class="heading" id="experiment-article-section-10-heading">
+                        Aim
+                  </div><!-- Write the section content inside a paragraph element, You can also include images with &lt;img&gt; tag -->
+
+                  <div class="content" id="experiment-article-section-10-content">
+                        
+                  <div class="divContent">
+
+                  <p class="MsoNormal" style="line-height: 150%; text-align: right;">
+        <a href="http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                   Back To Experiment List</span></a></p>
+
+                            <p>&nbsp;</p>
+
+                            <p><!-- p { margin-bottom: 0.21cm; } --></p>
+
+   <p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">
+   To perform molecular docking to predict the interaction energy between molecules.</span></p>
+   
+   <p><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);">
+                            <br></span></p>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg"><br>
+					Theory</div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                       
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+
+                            <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+							<br>
+							<br>
+                           
+                            <p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
+                            <strong><span style="font-size: large;">Theory :-</span></strong></span></p>
+							<br>
+							<p style="margin-bottom: 0cm" align="justify">Molecular docking is a well established computational technique which predicts the interaction energy between two molecules. This technique mainly incorporates algorithms like molecular dynamics, Monte Carlo stimulation, fragment based search methods which are mentioned in details in later part.</p>
+							<p style="margin-bottom: 0cm" align="justify">Molecular docking studies are used to determine the interaction of two molecules and to find the best orientation of ligand which would form a complex with overall minimum energy. The small molecule, known as ligand usually fits within protein’s cavity which is predicted by the search algorithm. These protein cavities become active when come in contact with any external compounds and are thus called as active sites.</p>
+							<p style="margin-bottom: 0cm" align="justify">The results are analyzed by a statistical scoring function which converts interacting energy into numerical values called as the docking score; and also the interacting energy is calculated. The 3D pose of the bound ligand can be visualized using different visualizing tools like Pymol, Rasmol etc which could help in inference of the best fit of ligand. Predicting the mode of protein-ligand interaction can assume the active site of the protein molecule and further help in protein annotation. Moreover molecular docking has major application in drug discovery and designing.</p>
+							<br>
+							<b>Different types of Interactions </b>
+							<br>
+							<p style="margin-bottom: 0cm" align="justify">Interactions between particles can be defined as a consequence of forces between the molecules contained by the particles. These forces are divided into four categories:</p>
+							
+							<ul type="circle">
+								<li><b>Electrostatic forces -</b> Forces with electrostatic origin due to the charges residing in the matter. The most common interactions are charge-charge, charge-dipole and dipole-dipole.</li>
+								<li><b> Electrodynamics forces-</b>most widely known is the Van der Waals interactions.</li>
+								<li><b>Steric forces -</b> Steric forces are generated when atoms in different molecules come into very close contact with one another and start affecting the reactivity of each other. The resulting forces can affect chemical reactions and the free energy of a system.</li>
+								<li><b>Solvent-related forces -</b>These are forces generated due to chemical reactions between the solvent and the protein or ligand. Examples are Hydrogen bonds (hydrophilic interactions) and hydrophobic interactions.</li>
+								<li> A common characteristic of all these forces is their electromagnetic nature.</li>
+								<li>Other physical factors - Conformational changes in the protein and the ligand are often necessary for successful docking.</li>
+							</ul>
+							
+							<br>
+							<b>1) Molecular docking</b>
+							<br>
+							
+							<p style="margin-bottom: 0cm">Molecular docking can be divided into two separate sections.</p>
+							<br>
+							<b> Search Algorithm</b><br>
+							
+							<p style="margin-bottom: 0cm" align="justify">These algorithms determine all possible optimal conformations for a given complex (protein-protein, protein-ligand) in a environment i.e. the position and orientation of both molecules relative to each other. They can also calculate the energy of the resulting complex and of each individual interaction.</p>
+							<br>
+							
+							<p style="margin-bottom: 0cm">The different types of algorithms that can be used for docking analysis are given below</p>
+							
+							<br>
+							<ul type="circle">
+								<li>Molecular dynamics</li>
+								<li>Monte Carlo methods</li>
+								<li>Genetic algorithms</li>
+								<li>Fragment-based methods</li>
+								<li>Point complementary methods</li>
+								<li> Distance geometry methods</li>
+								<li>Systematic searches</li>
+							</ul><br>
+							<b>2) Scoring function</b>
+							<p style="margin-bottom: 0cm" align="justify">These are mathematical methods used to predict the strength of the non-covalent interaction called as binding affinity, between two molecules after they have been docked. Scoring functions have also been developed to predict the strength of other types of intermolecular interactions, for example between two proteins or between protein and DNA or protein and drug. These configurations are evaluated using scoring functions to distinguish the experimental binding modes from all other modes explored through the searching algorithm.</p><br>
+							<p style="margin-bottom: 0cm">For example:</p>		<br>
+							<p style="margin-bottom: 0cm"> • Empirical scoring function of Igemdock</p>
+							<p style="margin-bottom: 0cm">Fitness = vdW + Hbond + Elec</p>
+							<p style="margin-bottom: 0cm">• Binding Energy</p>
+						<p style="margin-bottom: 0cm">∆G<sub>bind</sub> = ∆G<sub>vdw</sub> + ∆Gh<sub>bond</sub> + ∆G<sub>elect</sub> + ∆G<sub>conform</sub> + ∆G<sub>tor</sub> + ∆G<sub>sol</sub></p>
+							<br>
+							<br>
+							<b> General concept of algorithm</b>
+							<p style="margin-bottom: 0cm">1) A 'negative' image of the binding site is made - a collection of spheres of varying radii, each touching the molecular surface at just 2 points.</p>
+							<br>
+							<br>
+							<br><br><div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp16/1.png" alt="" style="width:191px; height:209px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div><br><br>
+							<p style="margin-bottom: 0cm">2) Ligand atoms are then matched to sphere centers where at least four distances between ligand atoms are matched to sphere center distances.</p>
+							<br><br>
+							<br><br><div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp16/2.png" alt="" style="width:351px; height:221px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div><br><br>
+							<p style="margin-bottom: 0cm">3) Proper orientation is achieved by a least squares fit of ligand atoms to the sphere centers.</p>
+							<p style="margin-bottom: 0cm">4) Orientation is checked for any steric clashes between ligand and receptor.</p>
+							<p style="margin-bottom: 0cm">5) If acceptable, then interaction energy is computed as a 'score' for that binding mode</p>
+							<p style="margin-bottom: 0cm">6) New orientations are obtained by matching different sets of atoms and sphere centers</p>
+							<p style="margin-bottom: 0cm">7) Top-scoring orientations are retained for subsequent analysis</p>
+							<br><br>
+							<b>Types of docking</b>
+							<br>
+							<p style="margin-bottom: 0cm">The following are majorly used type of docking are-</p>
+							<br>
+							<ul type="circle">
+								<li><b> Lock and Key or Rigid Docking –</b>In rigid docking, both the internal geometry of the receptor and ligand is kept fixed during docking</li>
+								<li><b>Induced fit or Flexible Docking - </b>In this model, the ligand is kept flexible and the energy for different conformations of the ligand fitting into the protein is calculated. Though more time consuming, this method can evaluate many different possible conformations which make it more reliable.</li>
+							</ul>
+							<br>
+							<br>
+							<b> Major steps in molecular docking:</b><br>
+							<b>Step I – Building the Receptor</b><br>
+							<p style="margin-bottom: 0cm">In this step the 3D structure of the receptor should be downloaded from PDB; and modified. This should include removal of the water molecules from the cavity, stabilizing charges, filling in the missing residues, generation the side chains etc according to the parameters available. After modification the receptor should be biological active and stable.</p>
+							<br>
+							<br>
+							<b>Step II – Identification of the Active Site</b><br>
+							<p style="margin-bottom: 0cm">After the receptor is built, the active site within the receptor should be identified. The receptor may have many active sites but the one of the interest should be selected. Most of the water molecules and heteroatoms if present should be removed.</p>
+							<br>
+							<br>
+							<b>Step III – Ligand Preparation</b><br>
+							<p style="margin-bottom: 0cm">Ligands can be obtained from various databases like ZINC, PubChem or can be sketched using tools like Chemsketch. While selecting the ligand, the LIPINSKY’S RULE OF 5 should be applied. The rule is important for drug development where a pharmacologically active lead structure is optimized stepwise for increased activity and selectivity, as well as drug-like properties, as described.</p>
+							<br>
+							<p style="margin-bottom: 0cm">For the selection of a ligand using LIPINSKY’S RULE:</p>
+							<ol type="1">
+								<li>Not more than 5 –H bond donors.</li>
+								<li> Molecular Weight NOT more than 500 Da.</li>
+								<li> Log P not over 5 for octanol water partition coefficient.</li>
+								<li> NOT more than 10 H bond acceptors.</li>
+							</ol>
+							<br>
+							<br>
+							<b>Step IV- Docking</b>
+							<br>
+							<p style="margin-bottom: 0cm">This is the last step, where the ligand is docked onto the receptor and the interactions are checked. The scoring function generates scores depending on which the ligand with the best fit is selected.</p>
+							<br>
+							<br>
+							<b>Software available for Molecular Docking:</b><br>
+							<p><a href="http://www.schrodinger.com/"><span style="Times New Roman&quot;;
+								color:black;text-decoration:none;text-underline:none">SCHRODINGER</span></a></p>
+							<p><a href="http://www.dock.com/"><span style="Times New Roman&quot;;
+								color:black;text-decoration:none;text-underline:none">DOCK</span></a></p>
+							<p><a href="http://www.autolocktools.com/"><span style="Times New Roman&quot;;
+								color:black;text-decoration:none;text-underline:none">AUTOLOCK TOOLS.</span></a></p>
+							<p><a href="http://www.discoverystudio.com/"><span style="Times New Roman&quot;;
+								color:black;text-decoration:none;text-underline:none">DISCOVERY STUDIO.</span></a></p>
+							<p><a href="http://www.igemdock.com/"><span style="Times New Roman&quot;;
+								color:black;text-decoration:none;text-underline:none">iGemDock</span></a></p>
+		
+							
+							
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                 <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"><br>
+					Procedure</div>
+
+					<p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                   
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+							
+							
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                           Molecular docking procedure :</span></b><span lang="EN-IN"
+                            style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <ol start="1" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									Receptor building – The receptor is downloaded from RCSB PDB</span></li>
+							</ol>
+							<br><br>
+                            <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp16/3.png" alt="" style="width:593px; height:316px"></span>  Image 1: PDB page displaying the protein of interest</div><br><br>
+			                <ol start="2" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									After downloading the pdb format of the protein, remove the water molecules by editing the TEXT of the protein.</span></li>
+							</ol>
+							<br><br>
+							
+                            <div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp16/4.png" alt="" style="width:191px; height:239px"></span></div><br><br>
+							<ol start="3" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+							Optimize the protein using the parameters available in the software. Upload the pdb file and select the GA parameter likes Population size, Generations etc which are necessary for docking accuracy. Prepare the binding site using the same panel displayed. Set the output path to store the prepared structure.</span></li>
+							</ol>
+							<br>			
+							<ol start="4" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									The active site is predicted and later the ligand is uploaded. Arrange all the parameters such as number of pose to be obtained and score and begin docking.</span></li>
+							</ol>
+<br><br><div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp16/5.png" alt="" style="width:562px; height:547px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div><br><br>
+									
+							<ol start="5" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									The score is calculated and the fitness is displayed. The data is analyzed and the most optimum ligand in the pose with the least energy is selected. </span></li>
+							</ol>
+<br><br><div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"><img src="../images/exp16/6.png" alt="" style="width:606px; height:531px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div><br><br>
+							
+							<ol start="6" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									The complex can be viewed and checked for the orientation of the ligand with the receptor. We can also visualize the interacting amino acids; the hydrogen bond formation can also be seen. Further amino acids forming hydrophobic interactions are also shown.</span></li>
+							</ol>
+<br><br><div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">Wireframe output <br><img src="../images/exp16/7.jpg" alt="" style="width:283px; height:298px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div><br><br>
+									<ol start="7" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									Various formats are available for representation and analysis. </span></li>
+							</ol>
+<br><br><div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;"> Molecular surface view<img src="../images/exp16/8.png" alt="" style="width:283px; height:298px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div><br><br>
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            LigPlot Analysis - After the docking results are obtained, the interaction can be studied using program like LigPlot that automatically plot ligand-protein interactions. Here, the ligand bound protein is used as the input file to generate the 2D plot of the hydrogen bond interaction and also the hydrophobic interaction. The docking score and the LigPlot analysis are the two most important analyses for selection of the best fit. The following is the good example of a good interaction.  
+								</span></p>
+							<br>
+							<br>
+							<div style="text-align: center;"><span style="font-size: 14pt; line-height: 200%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">Lig Plot output<img src="../images/exp16/9.png" alt="" style="width:500px; height:592px"></span><span style="font-size: 14pt; line-height: 200%;"><br>
+</span></div><br><br>
+							
+                    			</div>
+                        </div>   
+                </section>
+      
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                     <div class="divContent">
+                     <p><iframe width="825" align="middle" height="716" src="http://www.bio.iitb.ac.in/%7Esanjeeva/virtual_lab/Virtual_Laboratory/exp-12/simulator/main.HTML" style="margin-left:7%;"></iframe></p>
+                     </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/readings.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Reference
+                    </div>
+
+                    <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divContent">
+                            <p><!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+&lt;w:View&gt;Normal&lt;/w:View&gt;
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin:0in;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman","serif";}
+&lt;/style&gt;
+&lt;![endif]-->   	
+								<ol type="1">
+									<li>Igemdock Guide</li>
+									<li>Paul J Gane and Philip M Dean, Recent advances in structure-based rational drug design, Current Opinion in Structural Biology, 2000; 10:401–404</li>
+									<li>GEMDOCK: A generic evolutionary method for molecular docking; Jinn-Moon Yang, Chun-Chen Chen; Proteins: Structure, Function, and Bioinformatics</li>
+									<li>Fundamental of Medicinal Chemistry; Author – Gareth Thomas; Publisher - John Wiley & Sons Ltd; Date – 2000; Chapter 5 – Computer Aided Drug Designing.</li>
+							</ol>
+							<br>
+							<br>
+							
+					       <p class="PreformattedText"><b style=""><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
+                            Tools:</span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'></span></p>
+
+                            <p class="PreformattedText">&nbsp;</p>
+
+                            <h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            1.<span style=
+                            'font: 7pt "Times New Roman";'></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            Schrodinger: <a href=
+                            " http://www.schrodinger.com/">
+                            <span style=
+                            "color: rgb(0, 0, 0);"> http://www.schrodinger.com/</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            2.<span style=
+                            'font: 12pt "Times New Roman";'></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            AutoDock -<a href=
+                            "http://autodock.scripps.edu/">
+                            <span style=
+                            "color: rgb(0, 0, 0);">http://autodock.scripps.edu/</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            3.<span style=
+                            'font: 12pt "Times New Roman";'></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                             Dock -<a href=
+                            "http://dock.compbio.ucsf.edu/">
+                            <span style=
+                            "color: rgb(0, 0, 0);">http://dock.compbio.ucsf.edu/</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            4.<span style=
+                            'font: 12pt "Times New Roman";'></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                             Sanjeevini -<a href=
+                            "http://www.scfbio-iitd.res.in/sanjeevini/sanjeevini.jsp">
+                            <span style=
+                            "color: rgb(0, 0, 0);">http://www.scfbio-iitd.res.in/sanjeevini/sanjeevini.jsp</span></a></span></h2>
+							<h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            5.<span style=
+                            'font: 12pt "Times New Roman";'></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                              iGemDock -<a href=
+                            "http://gemdock.life.nctu.edu.tw/dock/igemdock.php">
+                            <span style=
+                            "color: rgb(0, 0, 0);">http://gemdock.life.nctu.edu.tw/dock/igemdock.php</span></a></span></h2>
+							
+						</div>
+                    </div>
+                </section>
+  <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        Assignments
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+						<p><b>Assignment 1 --</b> CDP - ME synthase is an enzyme involved in synthesis of isopremoids. It has an active site for CTP, so how will you design inhibitors for the enzyme.</p> <br>
+						<p><b>Assignment 2 --</b> Kinase Cds1 has many reported inhitibitors, find out the inhibitor showing the best interaction with the protein.</p></div>
+                </section>
+
+                
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>
